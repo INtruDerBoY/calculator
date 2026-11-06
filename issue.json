@@ -1,0 +1,4 @@
+{
+  "title": "calculate_discount increases price instead of decreasing it",
+  "body": "When calling calculate_discount(100.0, 20.0), it returns 120.0 instead of 80.0 because it adds the discount instead of subtracting."
+}
